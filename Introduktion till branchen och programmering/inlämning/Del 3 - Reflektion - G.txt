@@ -1,0 +1,13 @@
+Hur jag ser på Rollen som Backendutvecklare efter två veckor av studier här. Eller ah, 3 dagar eftersom jag flyttade hit i Tisdags förra veckan.
+Jag tycker att det ser väldigt lovande ut.
+Backend Utvecklare behövs överallt. Det är väldigt efterfrågat i många branscher. 
+Det är vi som kodar och ser till att APIer funkar och att APPar och servrar kan kommunicera och skicka rätt Data till rätt plats.
+Det kommer att behövas mer och mer i framtiden.
+Front-End utövar ju att saker ska se snyggt och användar-vänligt ut.
+Vi ser till att Magin fungerar.
+Det är särskilt kul för mig som faktiskt tycker att det är roligt att programmera.
+Med utbildningen så ser jag framemot att lära mig nya tekniker, och att lära mig så mycket jag bara kan.
+Kanske hitta ett nytt verktyg som jag inte kunnat eller vetat om innan.
+Jag ser även framemot att lära mig mer om att ta till hjälp av AI och LLMs. Jag hoppas att vi genom kursen får en uppgift att skapa ett Program som tar intelligenta beslut med hjälp av en LLM.
+Det tycker jag är spännande. Även om jag håller med om att LLMs och AI inte hör hemma överallt, så finns det helt klart saker som vi kan göra nu som vi aldrig har kunnat göra tidigare i historien.
+Även mina klasskamrater är intressanta. Dem flesta är nybörjare i programmering, men om dem har intresset i att lära sig bli bättre, så blir det asroligt.

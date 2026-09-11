@@ -1,0 +1,32 @@
+Spotify
+Hållbarhet
+Spotify har data centrar och fil servrar utspridda runt om i världen, som streamar musik till alla användare.
+Deras resurser (pengar) är stora. Tidigare när dem inte var det, alltså när dem lanserades år 2008 tills år 2014, så använde dem sig av en egengjord P2P (peer to peer) hybrid nätverk för att streama musiken.
+Då skulle dem första användarna ladda ner första sekunderna av en låt från Spotify's Officiella server, men sedan för resten av låten, så skulle P2P användas. 
+Detta innebar att användaren laddade ner små bitar av låten från andra användare i närheten som redan lyssnat på samma låt.
+Spotify sparade enormt stora bandbredds-kostnader genom detta knep.
+Dessutom så fanns det knappt ingen latency. Användaren kunde klicka på en låt, och den skulle börja spela nästan direkt!
+Runt år 2011 så beräknades det att så mycket som 80% av all musikströmning på Spotify var genom deras P2P nätverk.
+Det var dock bara Spotify's Desktop-version av appen som använde sig av detta.
+Smartphone Mobil appen använde sig inte av detta, för det skulle kosta användarnas smartmobilers batteri och mobil data.
+P2P nätverket fasades ut, och stängdes sedan ner helt 2014 av Spotify. Då hade företaget vuxit till sig rejält, och kunde öppna upp datacenters och dedikerade servrar runtom i världen.
+Centrala servrar kunde nu leverera musik precis lika snabbt som P2P-nätverket.
+
+En påhittad förändring som jag skulle föreslå är att designa en ny P2P nätverks lösning, men enbart för Desktop Klienter. De skulle åter igen streama musik till närliggande användare.
+När datorn inte använder bredbandet så aktivt, så sätts den igång.
+Den ska självklart vara designad på ett säkert sätt som inte går att utnyttja av hackers.
+Kanske med en "dum" men säker Relay-server imellan, så att användarna aldrig har en direkt uppkoppling till en annan användare.
+Alltså typ "Peer -> Relay -> Peer.". Användarna streamar smått till Relayn, som förmedlar det till rätt användare. 
+På detta sätt skulle Spotify bli mer hållbar med sina resurser (pengar).
+En risk med detta är att vissa användare kanske inte blir så nöjda, och vill inte dela med sig av sin data användning. 
+Så vi lägger en möjlighet till att avstå från detta i Options. Men då avstår dem från P2P nätverket helt och hållet, och får kanske lite sämre latency.
+
+Säkerhet
+Låtarna är krypterade, det är bara Spotify som kan spela upp låtarna.
+Det finns väl nån risk att en ful fisk knäcker krypteringen och på så sätt får tillgång till musik filen, men det skulle ta väldigt lång tid och det skulle nog inte vara värt det.
+En annan risk är att någon "hackar" relay servern för att försöka få användarnas IP addresser eller något. Men deras IP addresser behöver inte heller förvaras på Relay servern. 7
+En annan Server kan skicka detta till Relay Servern. Men det är en knut någon annan får lösa.
+
+Spotify använder sig av mycket data. Dem har bland annat inlogg, användar info, användarnas likeade låtar, låtar som användaren skippar osv. 
+Användarna kan betala för en premium subscription för att få bättre tjänst, bättre kvalitet på musik, eller annars behöva lyssna på reklam varje 5 minuter.
+Backend, på deras fil servrar så har dem många många låtar som varje sekund ska streamas till användare.
