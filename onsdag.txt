@@ -1,0 +1,15 @@
+Abstraction
+Visa bara de relevanta delarna av ett objekt och dölj resten. Till exempel: när vi kör bil är vi bara intresserade av att starta/stanna bilen.
+
+Encapsulation
+Avgör vilka egenskaper som är tillgängliga. Public är tillgängliga för alla. Private är egenskaper tillgängliga i samma klass.
+
+Inheritance (ska vi kolla mer på nästa vecka)
+Arv är processen att skapa en hierarki mellan klasser. En klass kan ärva från en annan klass.
+
+Polymorfism
+Polymorfism är ett sätt för till exempel underklasser att reagera på samma metod på olika sätt beroende på sammanhanget. Detta är nytt för mig.
+
+Objekt
+Är ett annat sätt att gruppera data än Listor. Med data av olika sorters data så använder vi Objekt. Med data av samma sort så funkar en Lista.
+
