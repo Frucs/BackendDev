@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W6J6XFkUl9I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\srugg\\source\\repos\\Chat\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\srugg\\.nuget\\packages\\spectre.console\\0.57.2\\spectre.console.0.57.2.nupkg.sha512",
+    "C:\\Users\\srugg\\.nuget\\packages\\spectre.console.ansi\\0.57.2\\spectre.console.ansi.0.57.2.nupkg.sha512"
+  ],
+  "logs": []
+}
