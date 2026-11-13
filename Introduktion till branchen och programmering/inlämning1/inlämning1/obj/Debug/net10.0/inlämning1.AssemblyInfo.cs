@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("inlämning1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be2fc1074b7a9c6304fe82f3601ed66a22cc618c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edd1ee43fb9e756c8fd2144ba9763e1dc52a1dfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("inlämning1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("inlämning1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

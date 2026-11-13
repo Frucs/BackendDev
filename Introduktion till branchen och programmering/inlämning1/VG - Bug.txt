@@ -1,0 +1,11 @@
+Problem:
+När användaren skrev text istället för ett nummer, exempelvis bokstäver vid registrering av ålder, kraschade programmet.
+
+Orsak:
+Jag använde int.Parse() för att konvertera användarens inmatning till ett heltal. Om texten inte kunde konverteras kastades ett undantag (FormatException), vilket avslutade programmet.
+
+Lösning:
+Jag skapade en metod som heter SafeRead(). Den använder Try och Catch. Om användaren skriver något som inte är ett giltigt heltal får användaren ett felmeddelande och kan försöka igen tills att det är bra inmatning.
+
+Testning:
+Jag testade att skriva bokstäver istället för siffror. Tidigare kraschade programmet, men efter ändringen kunde jag skriva in ett nytt värde utan att programmet avslutades.

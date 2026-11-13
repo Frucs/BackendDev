@@ -1,0 +1,8 @@
+Problem:
+Just nu sparas kundinformationen endast i en lista (List<Customer>) under tiden programmet körs. När programmet avslutas försvinner all registrerad kundinformation.
+
+Förbättring:
+Jag skulle vilja implementera permanent lagring av kundinformation genom att spara kundlistan i en JSON-fil.
+
+Det skulle innebära att personalen inte behöver registrera om alla kunder varje gång programmet startas. Informationen skulle finnas kvar mellan programkörningar.
+Det skulle också göra programmet mer användbart i en verklig verksamhet.
